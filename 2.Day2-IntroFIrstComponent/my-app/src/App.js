@@ -1,4 +1,5 @@
 import "./App.css";
+import Assignment from "./Assignment/Assignment";
 import { FirstComponent } from "./FirstComponent";
 
 function App() {
@@ -7,11 +8,7 @@ function App() {
       <h1>this app</h1>
       <FirstComponent />
       <FirstComponent />
-      <FirstComponent />
-      <FirstComponent />
-      <FirstComponent />
-      <FirstComponent />
-      <FirstComponent />
+      <Assignment/>
     </>
   );
 }
