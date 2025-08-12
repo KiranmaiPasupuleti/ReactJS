@@ -1,0 +1,30 @@
+
+.userCard{
+    padding: 18px;
+    margin:8px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.imageStyling{
+    width:60px;
+    height:60px;
+    border-radius:50px;
+}
+
+.followBtn{
+    background-color:coral;
+    width:90px;
+    padding-left:5px;
+    padding-right:5px;
+    border-radius:30px;
+    text-align:center;
+}
+
+.followBtn:hover{
+    background-color: olive;
+    color:white;
+}

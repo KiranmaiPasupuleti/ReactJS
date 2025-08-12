@@ -1,0 +1,32 @@
+html {
+  font-size: 100%;
+}
+
+:root {
+  /* color */
+  --black: black;
+  --yellow: yellow;
+  --padding: 20px;
+  --white: #fff;
+  --letterSpacing: 1px;
+}
+div {
+  margin: 20px;
+}
+p {
+  margin: 0;
+  color:var(--black);
+  background-color: var(--yellow);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  letter-spacing: var(--letterSpacing);
+  background-color: var(--black);
+  padding: var(--padding);
+  color : yellow;
+}
