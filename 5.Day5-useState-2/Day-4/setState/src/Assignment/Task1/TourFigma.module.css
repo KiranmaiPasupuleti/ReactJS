@@ -1,0 +1,113 @@
+*{
+    /* overflow-x:hidden; */
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.cardsContainer{
+    display:flex;
+    flex-wrap:wrap;
+    padding-bottom: 10px;
+    padding-top:10px;
+
+}
+
+.title{
+    font-family:"Roboto";
+    font-weight: 400;
+    font-size:40px;
+    line-height:40px;
+    letter-spacing:1px;
+    text-align:center;
+    color: #0F172A;
+}
+
+.line{
+    color:#10B981;
+    width: 112px;
+    height:4px;
+}
+.eachCard {
+    /* width:352px; */
+    width:30%;
+    margin: 20px;
+
+}
+.image{
+    width: 352px;
+    height: 320px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+.readmore{
+    width: 67px;
+height: 15px;
+color: #10B981;
+font-family: Arial;
+font-weight: 700;
+font-style: Bold;
+font-size: 13px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+}
+.p{
+    color: #64748B;
+    font-size: 16px;
+    line-height:24px;
+
+}
+.heading{
+    font-family: Roboto;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 1px;
+text-align: center;
+text-transform: capitalize;
+
+}
+.btnContainer{
+    width: 304;
+
+top: 242px;
+left: 24px;
+angle: 0 deg;
+opacity: 1;
+border-radius: 4px;
+border-width: 1px;
+color: #FFFFFF01;
+border: 1px solid #10B981;
+box-shadow: 0px 1px 2px 0px #0000000F;
+/* display:flex; */
+/* align-items:center; */
+box-shadow: 0px 1px 3px 0px #0000001A;
+
+}
+.interestBtn{
+    /* width: 95px; */
+top: 7px;
+left: 104px;
+angle: 0 deg;
+opacity: 1;
+font-family: Arial;
+font-weight: 400;
+font-style: Regular;
+font-size: 13px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 1px;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+color: #10B981;
+
+}
